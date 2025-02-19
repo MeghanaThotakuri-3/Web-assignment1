@@ -1,0 +1,214 @@
+ 
+  span{
+    margin:5px 70px 5px ;
+   
+  }
+  
+ 
+  a
+  {
+      text-decoration: none;
+      display: inline-block; 
+      padding: 5px 45px; /* Add some padding inside each box */
+      background-color: #a6b5de; /* Dark background for the box */
+      color:#424242;
+    font-size: larger;
+      
+  }
+  
+  h1{
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  p{
+    margin:10px auto 10px auto;
+    text-align:justify;
+  }
+  
+
+  .highlight {
+    background-color:#c2a1a8; 
+    display: inline-block;
+    text-align: right;
+  }
+  
+  header {
+    padding: 2px 0px;
+    text-align: center;
+}
+  
+  nav{
+    background-color: rgb(210, 236, 248);
+    height: 60px;
+    text-align: left;
+    
+  }
+
+ 
+  .its-abt,.its-edu,.its-pro{
+    padding:20px 45px 0 ;
+    
+  }
+  .its-exp {
+    padding:20px 45px 0 ;
+    
+  }
+
+  .profile_pic p1 {
+    margin: 5px 0; /* Add space between the two paragraphs */
+    text-align: center; /* Center the text */
+    display: block;
+}
+
+
+  .profile_pic {
+    float: left; /* Float the profile picture to the left */
+    width: 200px; /* Adjust size of the profile picture */
+    text-align: center; /* Center the text under the image */
+    margin-right: 100px; /* Space between image and about text */
+}
+.profile_pic img{
+    float: left;
+    width: 200px;
+    height: 150px; 
+    margin-top: 20px;
+    object-fit: cover ;
+  }
+  
+  
+
+  .experience {
+    float: left;
+    text-align: center; 
+    width: 45%; 
+    margin: 0 2.5%;
+    height:250px;
+    
+    
+
+
+}
+
+/* Blogs section */
+.blogs {
+  float: left;
+  text-align: center; 
+  width: 45%; 
+  margin: 0 2.5%;
+  
+  height: 250px;
+   
+    
+    
+}
+
+
+  .projects-head
+  {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0; 
+   }
+
+
+   .project1,
+   .project2 
+   {
+    float: left; 
+    width: 40%; 
+    margin-bottom: 0; 
+    margin-top: 0px;
+    padding: 20px;
+
+  
+    
+   }
+
+   .project1 {
+    margin-right: 5%; /* Add a margin to push project1 away from project2 */
+}
+
+.project2 {
+    margin-left: 5%; /* Add a margin to push project2 away from project1 */
+}
+   
+
+
+      
+  .p1_pic,
+  .p2_pic 
+  {
+      float: left; 
+      width: 100px; 
+      margin-right: 50px; 
+  }
+
+  .p1_pic img,
+  .p2_pic img {
+      width: 110px; 
+      height: 140px; 
+       
+      margin-top: 40px; 
+      margin-bottom: 20px;
+      object-fit: cover;
+      
+  }
+
+  
+  .about-head{
+    margin-left:40px;
+    margin-top: 15px;
+  }
+
+  .education-head{
+    margin-left:40px;
+    margin-top: 15px;
+  }
+  
+  .experience-head{
+    height: 250px;
+    background-color: #F1EFF0;
+    display: block;
+    
+    
+     /* This clears the float */
+  }
+
+
+  footer{
+    font-size: 20px;
+    background-color: rgb(120, 118, 118);
+    height: 80px;
+    color:#DCDCDC;
+    text-align: center;
+  }
+ 
+  
+  
+  
+  .icon{
+   padding:10px;
+   margin: 0 130px;
+  }
+  
+
+  
+
+
+  #about{
+    background-color: #e3d7c3f4; 
+    height: 250px;
+  }
+  #education{
+    background-color: #cfbaba;
+    height: 250px;
+  }
+  #projects{
+    background-color:#e0e1f3;
+    height: 370px;
+  }
+  #experience{
+    background-color:#F1EFF0;
+    height: 250px;
+  }
